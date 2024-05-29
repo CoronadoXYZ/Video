@@ -1,0 +1,225 @@
+#x{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#centro h1{
+    font-family: "Edu TAS Beginner", cursive;
+    color: white;
+    font-size: 90px;
+    margin: 0;
+    padding: 0; 
+}
+#centro p{
+    font-family: "Salsa", cursive;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+#centro{
+    width: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#boton{
+    font-family: "Edu TAS Beginner", cursive;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+#boton a {
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: scale(1);
+    margin: 15px;
+    transition: 300ms ease-in;
+}
+#boton a:hover {
+    color:greenyellow;
+}
+#boton2{
+    font-family: "Edu TAS Beginner", cursive;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+#boton2 a {
+    cursor: pointer;
+    color:green;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: scale(1);
+    margin: 20px;
+    transition: 300ms ease-in;
+}
+#boton2 a:hover {
+    color: black;
+}
+#redes img{
+    transition: all 300ms ease-in;
+    filter: invert(98%) sepia(20%) saturate(15%) hue-rotate(302deg) brightness(109%) contrast(103%);
+    padding: 5px;
+}
+#redes img:hover{
+    transition: all 300ms ease-in;
+    filter: brightness(10%);
+    filter: invert(60%) sepia(85%)  hue-rotate(81deg) brightness(111%) contrast(121%);
+}
+#redes2{
+    position: absolute;
+    top: 1250px;
+    left: 45%;
+}
+#redes2 img{
+    transition: all 300ms ease-in;
+    padding: 3px;
+}
+#redes2 img:hover{
+    transition: all 300ms ease-in;
+    filter: brightness(10%);
+    filter: invert(60%) sepia(85%)  hue-rotate(81deg) brightness(111%) contrast(121%);
+}
+#redes3{
+    position: absolute;
+    top: 850px;
+    left: 45%;
+}
+#redes3 img{
+    transition: all 300ms ease-in;
+    padding: 3px;
+}
+#redes3 img:hover{
+    transition: all 300ms ease-in;
+    filter: brightness(10%);
+    filter: invert(60%) sepia(85%)  hue-rotate(81deg) brightness(111%) contrast(121%);
+}
+#redes4{
+    position: absolute;
+    top: 1790px;
+    left: 45%;
+}
+#redes4 img{
+    transition: all 300ms ease-in;
+    padding: 3px;
+}
+#redes4 img:hover{
+    transition: all 300ms ease-in;
+    filter: brightness(10%);
+    filter: invert(60%) sepia(85%)  hue-rotate(81deg) brightness(111%) contrast(121%);
+}
+#titulo{
+    position: fixed;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    z-index: 20;
+    background-color: white;
+}
+h1{
+    font-family: "Edu TAS Beginner", cursive;
+    text-align: center;
+    padding: 0px;
+    font-size: 70px;
+}
+
+#blog{
+    border-bottom: 1px solid blueviolet;
+    padding: 5px;
+}
+a {
+    color:black;   
+    cursor: pointer;
+    text-decoration: none;
+}
+#imagen1{
+    position: relative;
+    top: 250px;
+    left: 400px;
+    box-shadow: 10px 5px 10px green;
+    border-radius: 25px;
+}
+h2{
+    font-family: "Edu TAS Beginner", cursive;
+    position: absolute;
+    top: 740px;
+    left: 42%;
+    font-size: 27px;
+}
+#texto{
+    font-family: "Salsa", cursive;
+    color: green;
+    position: absolute;
+    top: 790px;
+    left: 400px;
+    right: 400px;
+    margin: 10px;
+}
+#texto2{
+    color: green;
+    position: absolute;
+    top: 330px;
+    left: 400px;
+    right: 400px;
+    margin: 10px;
+}
+#h2t{
+    position: absolute;
+    top: 250px;
+    left: 42%;
+    font-size: 27px;
+}
+#z{
+    display: flex;
+}
+p{
+    font-family: "Salsa", cursive;
+    margin: 10px;
+}
+.imagens{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px green;
+    margin: 23px;
+}
+#imagenes img {
+    margin: 15px;
+    transition: all 300ms ease-in;
+    filter: brightness(40%);
+    
+}
+#imagenes img:hover {
+    filter: brightness(100%);
+}
+#contenedor{
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    bottom: -300px;
+    left: 430px;
+    right: 430px;
+}
+#imagenes{
+    font-family: "Salsa", cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+video{
+    box-shadow: 10px 5px 10px green;
+    border-radius: 25px;
+}
+iframe{
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 25px;
+}
